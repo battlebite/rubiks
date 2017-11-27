@@ -1,0 +1,18 @@
+﻿  demo.cpp
+e:\fredonia fall 2017\csit 462 - computer graphics\starter_vs2017\glui\include\gl\glui.h(852): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+e:\fredonia fall 2017\csit 462 - computer graphics\starter_vs2017\demo.cpp(38): warning C4305: 'initializing': truncation from 'double' to 'float'
+e:\fredonia fall 2017\csit 462 - computer graphics\starter_vs2017\demo.cpp(162): warning C4101: 'mod': unreferenced local variable
+e:\fredonia fall 2017\csit 462 - computer graphics\starter_vs2017\demo.cpp(235): warning C4305: 'argument': truncation from 'double' to 'float'
+e:\fredonia fall 2017\csit 462 - computer graphics\starter_vs2017\demo.cpp(246): warning C4305: 'argument': truncation from 'double' to 'float'
+e:\fredonia fall 2017\csit 462 - computer graphics\starter_vs2017\demo.cpp(250): warning C4305: 'argument': truncation from 'double' to 'float'
+e:\fredonia fall 2017\csit 462 - computer graphics\starter_vs2017\demo.cpp(254): warning C4305: 'argument': truncation from 'double' to 'float'
+e:\fredonia fall 2017\csit 462 - computer graphics\starter_vs2017\demo.cpp(291): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+e:\fredonia fall 2017\csit 462 - computer graphics\starter_vs2017\demo.cpp(307): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+e:\fredonia fall 2017\csit 462 - computer graphics\starter_vs2017\demo.cpp(310): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+e:\fredonia fall 2017\csit 462 - computer graphics\starter_vs2017\demo.cpp(313): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+e:\fredonia fall 2017\csit 462 - computer graphics\starter_vs2017\demo.cpp(384): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+e:\fredonia fall 2017\csit 462 - computer graphics\starter_vs2017\demo.cpp(387): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+e:\fredonia fall 2017\csit 462 - computer graphics\starter_vs2017\demo.cpp(388): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+e:\fredonia fall 2017\csit 462 - computer graphics\starter_vs2017\demo.cpp(389): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+  a2.vcxproj -> E:\Fredonia Fall 2017\CSIT 462 - Computer Graphics\starter_vs2017\.\Debug\a2.exe
+  a2.vcxproj -> .\Debug\a2.pdb (Full PDB)
