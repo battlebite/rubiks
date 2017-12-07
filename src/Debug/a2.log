@@ -1,18 +1,18 @@
 ﻿  demo.cpp
-e:\fredonia fall 2017\csit 462 - computer graphics\starter_vs2017\glui\include\gl\glui.h(852): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
-e:\fredonia fall 2017\csit 462 - computer graphics\starter_vs2017\demo.cpp(38): warning C4305: 'initializing': truncation from 'double' to 'float'
-e:\fredonia fall 2017\csit 462 - computer graphics\starter_vs2017\demo.cpp(162): warning C4101: 'mod': unreferenced local variable
-e:\fredonia fall 2017\csit 462 - computer graphics\starter_vs2017\demo.cpp(235): warning C4305: 'argument': truncation from 'double' to 'float'
-e:\fredonia fall 2017\csit 462 - computer graphics\starter_vs2017\demo.cpp(246): warning C4305: 'argument': truncation from 'double' to 'float'
-e:\fredonia fall 2017\csit 462 - computer graphics\starter_vs2017\demo.cpp(250): warning C4305: 'argument': truncation from 'double' to 'float'
-e:\fredonia fall 2017\csit 462 - computer graphics\starter_vs2017\demo.cpp(254): warning C4305: 'argument': truncation from 'double' to 'float'
-e:\fredonia fall 2017\csit 462 - computer graphics\starter_vs2017\demo.cpp(291): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-e:\fredonia fall 2017\csit 462 - computer graphics\starter_vs2017\demo.cpp(307): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-e:\fredonia fall 2017\csit 462 - computer graphics\starter_vs2017\demo.cpp(310): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-e:\fredonia fall 2017\csit 462 - computer graphics\starter_vs2017\demo.cpp(313): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-e:\fredonia fall 2017\csit 462 - computer graphics\starter_vs2017\demo.cpp(384): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
-e:\fredonia fall 2017\csit 462 - computer graphics\starter_vs2017\demo.cpp(387): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
-e:\fredonia fall 2017\csit 462 - computer graphics\starter_vs2017\demo.cpp(388): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
-e:\fredonia fall 2017\csit 462 - computer graphics\starter_vs2017\demo.cpp(389): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
-  a2.vcxproj -> E:\Fredonia Fall 2017\CSIT 462 - Computer Graphics\starter_vs2017\.\Debug\a2.exe
+c:\users\alex\desktop\tst\rubiks\src\glui\include\gl\glui.h(852): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\alex\desktop\tst\rubiks\src\demo.cpp(38): warning C4305: 'initializing': truncation from 'double' to 'float'
+c:\users\alex\desktop\tst\rubiks\src\demo.cpp(189): warning C4101: 'mod': unreferenced local variable
+c:\users\alex\desktop\tst\rubiks\src\demo.cpp(263): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\users\alex\desktop\tst\rubiks\src\demo.cpp(274): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\users\alex\desktop\tst\rubiks\src\demo.cpp(278): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\users\alex\desktop\tst\rubiks\src\demo.cpp(282): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\users\alex\desktop\tst\rubiks\src\demo.cpp(319): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\alex\desktop\tst\rubiks\src\demo.cpp(335): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\alex\desktop\tst\rubiks\src\demo.cpp(338): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\alex\desktop\tst\rubiks\src\demo.cpp(341): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\alex\desktop\tst\rubiks\src\demo.cpp(412): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+c:\users\alex\desktop\tst\rubiks\src\demo.cpp(415): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+c:\users\alex\desktop\tst\rubiks\src\demo.cpp(416): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+c:\users\alex\desktop\tst\rubiks\src\demo.cpp(417): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+  a2.vcxproj -> C:\Users\Alex\Desktop\tst\rubiks\src\.\Debug\a2.exe
   a2.vcxproj -> .\Debug\a2.pdb (Full PDB)

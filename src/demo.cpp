@@ -43,7 +43,7 @@ const float PI = 3.14159;
 int windowID;               // Glut window ID (for display)
 GLUI *glui;                 // Glui window (for controls)
 int Win[2];                 // window (x,y) size
-
+float rotation[3] = {0,0,0};
 
 // ---------------- ANIMATION VARIABLES ---------------------
 
@@ -69,7 +69,7 @@ float joint_rot_4 = -35.0f;
 
 // Variables for moving camera position and rotation
 static int camAngleX = 0, camAngleY = 0, camAngleZ = 0;
-static int camPosX = 0, camPosY = 0, camPosZ = 0;
+static int camPosX = 0, camPosY = 0, camPosZ = 195;
 
 
 
@@ -157,7 +157,34 @@ int main(int argc, char** argv)
 //F1 moves camera to left, F2 moves camera to the right
 //F3 moves camera downward, F4 moves camera upward
 //F5 moves camera towards the scene, F6 moves camera way from the scene
-
+void keyboard(unsigned char key, int, int) {
+	switch (key) {
+	case 'q':
+		rotation[0] += 90;
+		glutPostRedisplay();
+		break;
+	case 'e':
+		rotation[0] -= 90;
+		glutPostRedisplay();
+		break;
+	case 'a':
+		rotation[1] += 90;
+		glutPostRedisplay();
+		break;
+	case 'd':
+		rotation[1] -= 90;
+		glutPostRedisplay();
+		break;
+	case 'z':
+		rotation[2] += 90;
+		glutPostRedisplay();
+		break;
+	case 'c':
+		rotation[2] -= 90;
+		glutPostRedisplay();
+		break;
+	}
+}
 void special(int key, int, int) {
 	int mod;
 	switch (key) {
@@ -193,6 +220,7 @@ void initGlut(char* winName)
 	// Setup callback functions to handle events
 	glutReshapeFunc(myReshape); // Call myReshape whenever window resized
 	glutDisplayFunc(display);   // Call display whenever new frame needed 
+	glutKeyboardFunc(keyboard);
 	glutSpecialFunc(special);	// Called for camera movements
 }
 
@@ -487,6 +515,8 @@ void glDrawCube()
 	for (int i = 0; i < 3; i++)
 		//moves back one unit on z-axis
 	{
+		glPushMatrix();
+		glRotatef(rotation[i], 0.0f, 0.0f, 1.0f);
 		for (int j = 0; j < 3; j++)
 			//moves up one unit on y-axis
 		{
@@ -500,6 +530,8 @@ void glDrawCube()
 			xMark = -1.0f;
 			yMark++;
 		}
+		
+		glPopMatrix();
 		yMark = -1.0f;
 		zMark--;
 	}
@@ -576,6 +608,7 @@ void buildCubeWire(float x, float y, float z)
 {
 	//draw black lines on all edges of the minicubes
 	//TOP
+	glLineWidth(10);
 	glBegin(GL_LINE_LOOP);
 		glColor3f(0.0f, 0.0f, 0.0f);
 		glVertex3f((x + 0.5f), (y + 0.5f), (z - 0.5f));
