@@ -160,11 +160,11 @@ int main(int argc, char** argv)
 void keyboard(unsigned char key, int, int) {
 	switch (key) {
 	case 'q':
-		rotation[0] += 90;
+		rotation[2] += 90;
 		glutPostRedisplay();
 		break;
 	case 'e':
-		rotation[0] -= 90;
+		rotation[2] -= 90;
 		glutPostRedisplay();
 		break;
 	case 'a':
@@ -176,11 +176,11 @@ void keyboard(unsigned char key, int, int) {
 		glutPostRedisplay();
 		break;
 	case 'z':
-		rotation[2] += 90;
+		rotation[0] += 90;
 		glutPostRedisplay();
 		break;
 	case 'c':
-		rotation[2] -= 90;
+		rotation[0] -= 90;
 		glutPostRedisplay();
 		break;
 	}
